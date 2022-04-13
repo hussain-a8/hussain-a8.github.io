@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CSS Positioning Cheat Sheet!</title>
+    <link href="./resources/style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<h1>CSS Positioning Cheat Sheet</h1>
+
+<main>
+    <div>
+       <h2>This page will highlight the key CSS properties and their values!</h2>
+    </div>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Property Name</th>
+                <th>Property Value</th>
+                <th>Explanation</th>
+            </tr>
+        </thead>
+        <tbody>
+
+            <tr>
+                <th rowspan="5" class="code">position</th>
+                <td class="code">relative</td>
+                <td>This value allows you to position an element relative to its default static position on the web page</td>
+            </tr>
+              <tr>
+                  <td class="code">static</td>
+                  <td>The default value (it does not need to be specified)</td>
+              </tr>
+              <tr>
+                  <td class="code">absolute</td>
+                  <td>Other elements on the page will ignore the element.The element will be positioned relative to its closest positioned parent element and can positioned with offset properties </td>
+              </tr>
+              <tr>
+                  <td class="code">fixed</td>
+                  <td>Fixes the element on screen, stays in position when scrolling. It can be positioned with offset properties</td>
+              </tr>
+              <tr>
+                  <td class="code">sticky</td>
+                  <td>Keeps an element in the document flow as the user scrolls, but sticks to a specified position as the page is scrolled further</td>
+              </tr>
+
+
+            <tr>
+                <th rowspan="3" class="code">display</th>
+                <td class="code">block</td>
+                <td>Block elements fill the entire width of the page by default, but their width property can also be set and their height is determined by content.</td>
+            </tr>
+              <tr>
+                  <td class="code">inline</td>
+                  <td>Inline elements cannot be altered in size with the height or width CSS properties, e.g. anchor tags </td>
+              </tr>
+              <tr>
+                  <td class="code">inline-block</td>
+                  <td>Inline-block display combines features of both inline and block elements. Inline-block elements can appear next to each other, and we can specify their dimensions using the width and height properties.</td>
+              </tr>
+
+
+            <tr>
+                <th rowspan="2" class="code">float</th>
+                <td class="code">left</td>
+                <td>Floats the element as far left as possible.</td>
+            </tr>
+              <tr>
+                  <td class="code">right</td>
+                  <td>Floats the element as far right as possible.</td>
+              </tr>
+
+            <tr>
+                <th class="code">z-index</th>
+                <td class="code">0-10</td>
+                <td>Order of depth of elements. Determines which elements pass over what. 0 is deepest, 10 is the higher.</td>
+            </tr>
+        </tbody>
+
+
+    </table>
+
+
+
+
+
+</main>
+
+</body>
+
+
+
+</html>

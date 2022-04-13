@@ -1,0 +1,38 @@
+body {
+    background-color: mediumaquamarine;
+}
+
+h1 {
+    margin:auto;
+    text-align: center;
+    text-transform:uppercase;
+}
+
+h2 {
+    text-align: center;
+    letter-spacing: 0.25em;
+
+}
+
+td, th {
+    text-align: center;
+    padding: 5px;
+
+}
+
+td, th {
+    border: 1px solid black;
+}
+
+table {
+    border: 2px solid aqua;
+}
+
+th {
+    background-color: beige;
+}
+
+.code {
+    font-family:'Lucida Console', monospace;
+    background-color: grey;
+}
